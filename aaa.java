@@ -33,15 +33,11 @@ public static void main(String args[]){
 	                 j=(char)(g+96);
 	                 System.out.print(j);
 	    	}
-	    		else if(g>=27&&g<=51){
+	    		else if(g>=27&&g<=52){
 	    			int b1=g%26;
 	    			j=(char)(b1+96);
 	    			System.out.print(j);
-	    		}
-	    		else{
-	    			System.out.print("z");
-	    			break;
-	    		}
+			}
 }
 	    }	    
 }
