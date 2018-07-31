@@ -12,15 +12,15 @@ public static void main(String[] args) {
 		d=i*b;
 		e=c*i;
 		if(a==d+e){
-			System.out.println("yes");
+			System.out.println("YES");
 			break;
 		}
-		//else if(i==(a/2)-1){
-	//		System.out.println("no");
-		//	break;
-		
+		else if(i==(a/2)-1){
+			System.out.println("NO");
+			break;
+		}
 		else{
-	   System.out.println("no");
+	
 		}
 	}
 }
