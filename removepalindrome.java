@@ -25,5 +25,8 @@ public static void main(String[] args) {
 	if(c!=0){
 	System.out.println(b-(2*c));
 	}
+	else{
+		System.out.println(b);
+	}
 }
 }
